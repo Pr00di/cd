@@ -2,11 +2,11 @@
   "name": "mon-projet-express",
   "version": "1.0.0",
   "description": "Un projet Express.js de base",
-  "main": "app.js", // Le point d'entrée principal de votre application
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js" // Commande pour démarrer votre application
+    "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.17.1" // Dépendance Express.js
+    "express": "^4.17.1"
   }
 }
