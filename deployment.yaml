@@ -15,8 +15,8 @@ spec:
         app: webserver
     spec:
       containers:
-      - name: webserver
-        image: mywebserver:1.0
+      - name: cd_analysis
+        image: prodi03/cd:sha-d2e65d6
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
