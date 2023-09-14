@@ -1,4 +1,6 @@
 FROM node:alpine
+RUN adduser -D nonrootuser
+USER nonrootuser
 
 LABEL maintainer "eric.muellenbach@yncrea.fr"
 
